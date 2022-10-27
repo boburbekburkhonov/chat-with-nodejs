@@ -1,6 +1,6 @@
 const socket = io()
 
-const nameUser = prompt()
+const nameUser = prompt("Ismingizni kiriting iltimos!");
 
 const h4 = document.createElement('h4');
 h4.innerText = "You joined";
